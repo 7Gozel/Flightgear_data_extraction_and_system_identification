@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+ <logging>
+  <log>
+   <filename>
+
+   </filename>
+   <enabled>true</enabled>
+   <interval-ms>500</interval-ms>
+   <delimiter>,</delimiter>
+   <entry>
+    <enabled>true</enabled>
+    <title>Rudder</title>
+    <property>/controls/flight/rudder</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Aileron</title>
+    <property>/controls/flight/aileron</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Elevator</title>
+    <property>/controls/flight/elevator</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Flap</title>
+    <property>/controls/flight/flaps</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Velocity kt</title>
+    <property>/velocities/airspeed-kt</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>a_x fts^2</title>
+    <property>/accelerations/pilot/x-accel-fps_sec</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>a_y fts^2</title>
+    <property>/accelerations/pilot/y-accel-fps_sec</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>a_z fts^2</title>
+    <property>/accelerations/pilot/z-accel-fps_sec</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Side-slip angle deg</title>
+    <property>/orientation/side-slip-deg</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Angle of attack deg</title>
+    <property>/orientation/alpha-deg</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Roll rate degs</title>
+    <property>/orientation/roll-rate-degps</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Pitch rate degs</title>
+    <property>/orientation/pitch-rate-degps</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Yaw rate degs</title>
+    <property>/orientation/yaw-rate-degps</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Roll deg</title>
+    <property>/orientation/roll-deg</property>
+   </entry>
+   <entry>
+    <enabled>true</enabled>
+    <title>Pitch deg</title>
+    <property>/orientation/pitch-deg</property>
+   </entry>
+ </log>
+ </logging>
+</PropertyList>
+
+
+

@@ -15,3 +15,5 @@ Add protocol.xml to the same folder with fgfs.exe then run the Flightgear. From 
 This will log flight data to given .csv file, default set to 1000 (1 second) can be lowered for lower dt 
 
 System identification was done using simple least squares, data interpolation was applied to output from Flightgear to enrich the data.
+
+Lateral example model used in this code is given in Capture.png
